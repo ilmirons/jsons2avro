@@ -1,0 +1,28 @@
+{
+  "name": "jsons2avro",
+  "version": "0.0.8",
+  "description": "A cli tool to convert jsonSchema to Avro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "jsons2avro": "index.js"
+  },
+  "dependencies": {
+    "jsonschema-avro": "^1.6.0",
+    "commander": "^7.2.0"
+  },
+  "keywords": [
+    "Avro",
+    "Jsonschema",
+    "converter"
+  ],
+  "author": "Andrea Mirone",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilmirons/jsons2avro.git"
+  },
+  "homepage": "https://github.com/ilmirons/jsons2avro"
+}
