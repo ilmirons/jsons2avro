@@ -1,6 +1,6 @@
 {
   "name": "jsons2avro",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A cli tool to convert jsonSchema to Avro",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,11 @@
     "jsons2avro": "index.js"
   },
   "dependencies": {
+    "commander": "^7.2.0",
+    "json5": "^2.2.0",
     "jsonschema-avro": "^1.6.0",
-    "commander": "^7.2.0"
+    "minimatch": "^3.0.4",
+    "recursive-readdir": "^2.2.2"
   },
   "keywords": [
     "Avro",
