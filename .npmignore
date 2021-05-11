@@ -1,0 +1,6 @@
+.npmignore
+.gitignore
+.idea
+.package-lock.json
+jsons2avro.iml
+*.tgz
